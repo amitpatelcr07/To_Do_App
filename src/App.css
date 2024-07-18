@@ -1,0 +1,31 @@
+.Input-Header{
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      margin-top: 20px;
+      border-radius: 1px solid black;
+      background-color: greenyellow;
+}
+
+.Input-Header>button{
+    color:rgb(232, 236, 232);
+    background-color: green;
+}
+
+.list-item{
+    list-style: none;
+    background-color: aquamarine;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Todo-Display>h3{
+  color: rgb(219, 30, 30);
+  margin-left: 20px;
+}
+
+.Deleted-item>h3{
+    color:green;
+    margin-left: 20px;
+}
